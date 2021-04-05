@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* https://media.giphy.com/media/14u2ZI1XhkoZCU/giphy.gif */
+/* https://media.giphy.com/media/pWhWtKdqwOAco/giphy.gif */
+/* https://media.giphy.com/media/FlodpfQUBSp20/giphy.gif */
+/* https://media.giphy.com/media/JrZHAQT0CxmkPWj9LZ/giphy.gif */
+body{
+    background-image: url('https://thumbs.gfycat.com/RingedSpicyKodiakbear-max-1mb.gif');
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1%;
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 384px;
+    width: 285px;
+    background: rgba(195,201,211, 0.7);
+    margin: 40px;
+    text-align: center;
+    border-radius: 20px;
+    transition: 0.5s all ease-in-out;
+}
+.card:hover{
+    transform: scale(1.07);
+    box-shadow: 0px 0px 20px 20px rgba(195, 201, 211, 0.35);
+}
+.heading h1{
+    color: rgb(224, 202, 202);
+    text-align: center;
+    margin-top: 56px;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s all ease-in-out;
+}
+h1:hover{
+    text-shadow: 3px 3px 5px rgb(224, 202, 202);
+}
+p{
+    color: black;
+    font-size: 20px;
+    margin-top: 21px;
+    line-height: 28px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+}
+.image1{
+    margin-top: 13%;
+    height: 187px;
+    width: 254px;
+    transition: 0.5s all ease-in-out;
+}
+.image1:hover{
+    transform: scale(1.07);
+}
+.image2{
+    margin-top: 9%;
+    height: 204px;
+    width: 204px;
+    transition: 0.5s all ease-in-out;
+}
+.image2:hover{
+    transform: scale(1.07);
+}
+.image3{
+    margin-top: 9%;
+    height: 204px;
+    width: 219px;
+    transition: 0.5s all ease-in-out;
+}
+.image3:hover{
+    transform: scale(1.07);
+}
+@media (max-width:1100px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
